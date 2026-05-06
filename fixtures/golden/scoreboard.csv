@@ -1,0 +1,97 @@
+id,focus,signal,slack,drag,confidence,score,lane,kind,invariant
+g001,dry-run spread,82,31,25,29,262,ship,baseline,monotonic-signal
+g002,rename risk,63,24,38,76,199,ship,edge,drag-penalty
+g003,operator cost,101,23,4,32,369,ship,recovery,confidence-floor
+g004,idempotence,79,25,31,87,281,ship,negative,lane-boundary
+g005,dry-run spread,72,29,4,33,295,ship,baseline,monotonic-signal
+g006,rename risk,72,33,34,53,233,ship,edge,drag-penalty
+g007,operator cost,75,73,29,68,352,ship,recovery,confidence-floor
+g008,idempotence,36,60,28,80,224,ship,negative,lane-boundary
+g009,dry-run spread,64,56,29,47,264,ship,baseline,monotonic-signal
+g010,rename risk,82,57,10,78,408,ship,edge,drag-penalty
+g011,operator cost,50,60,44,98,236,ship,recovery,confidence-floor
+g012,idempotence,38,64,42,70,186,ship,negative,lane-boundary
+g013,dry-run spread,35,33,24,60,159,watch,baseline,monotonic-signal
+g014,rename risk,81,20,35,60,238,ship,edge,drag-penalty
+g015,operator cost,108,51,21,21,384,ship,recovery,confidence-floor
+g016,idempotence,37,34,15,49,183,ship,negative,lane-boundary
+g017,dry-run spread,93,28,14,68,361,ship,baseline,monotonic-signal
+g018,rename risk,36,28,36,39,95,hold,edge,drag-penalty
+g019,operator cost,99,30,27,29,305,ship,recovery,confidence-floor
+g020,idempotence,46,69,24,28,232,ship,negative,lane-boundary
+g021,dry-run spread,111,21,24,75,378,ship,baseline,monotonic-signal
+g022,rename risk,59,34,26,31,198,ship,edge,drag-penalty
+g023,operator cost,81,43,28,86,331,ship,recovery,confidence-floor
+g024,idempotence,51,50,10,32,255,ship,negative,lane-boundary
+g025,dry-run spread,84,28,23,52,291,ship,baseline,monotonic-signal
+g026,rename risk,60,13,31,67,180,ship,edge,drag-penalty
+g027,operator cost,51,43,16,79,270,ship,recovery,confidence-floor
+g028,idempotence,94,25,31,46,285,ship,negative,lane-boundary
+g029,dry-run spread,75,54,19,77,353,ship,baseline,monotonic-signal
+g030,rename risk,113,36,14,97,466,ship,edge,drag-penalty
+g031,operator cost,92,29,13,69,364,ship,recovery,confidence-floor
+g032,idempotence,35,28,14,59,178,watch,negative,lane-boundary
+g033,dry-run spread,104,30,37,59,320,ship,baseline,monotonic-signal
+g034,rename risk,54,34,29,20,163,watch,edge,drag-penalty
+g035,operator cost,32,38,27,48,139,watch,recovery,confidence-floor
+g036,idempotence,113,8,9,67,395,ship,negative,lane-boundary
+g037,dry-run spread,113,65,20,38,447,ship,baseline,monotonic-signal
+g038,rename risk,116,61,6,28,480,ship,edge,drag-penalty
+g039,operator cost,77,62,42,27,256,ship,recovery,confidence-floor
+g040,idempotence,105,65,41,74,396,ship,negative,lane-boundary
+g041,dry-run spread,35,69,21,30,210,ship,baseline,monotonic-signal
+g042,rename risk,91,38,12,85,398,ship,edge,drag-penalty
+g043,operator cost,79,25,9,31,291,ship,recovery,confidence-floor
+g044,idempotence,76,56,9,51,364,ship,negative,lane-boundary
+g045,dry-run spread,34,39,11,66,213,ship,baseline,monotonic-signal
+g046,rename risk,61,33,13,78,288,ship,edge,drag-penalty
+g047,operator cost,78,33,37,45,234,ship,recovery,confidence-floor
+g048,idempotence,46,35,8,76,260,ship,negative,lane-boundary
+g049,dry-run spread,77,74,16,96,427,ship,baseline,monotonic-signal
+g050,rename risk,52,26,43,68,147,watch,edge,drag-penalty
+g051,operator cost,87,39,16,58,349,ship,recovery,confidence-floor
+g052,idempotence,64,48,4,58,334,ship,negative,lane-boundary
+g053,dry-run spread,100,55,41,105,392,ship,baseline,monotonic-signal
+g054,rename risk,34,33,40,47,95,hold,edge,drag-penalty
+g055,operator cost,92,18,41,66,255,ship,recovery,confidence-floor
+g056,idempotence,37,48,22,37,178,watch,negative,lane-boundary
+g057,dry-run spread,101,30,14,27,348,ship,baseline,monotonic-signal
+g058,rename risk,92,59,12,26,384,ship,edge,drag-penalty
+g059,operator cost,47,41,36,73,188,ship,recovery,confidence-floor
+g060,idempotence,116,34,5,29,430,ship,negative,lane-boundary
+g061,dry-run spread,66,33,33,84,249,ship,baseline,monotonic-signal
+g062,rename risk,45,35,27,30,154,watch,edge,drag-penalty
+g063,operator cost,76,39,26,50,278,ship,recovery,confidence-floor
+g064,idempotence,57,43,6,65,304,ship,negative,lane-boundary
+g065,dry-run spread,95,13,39,77,271,ship,baseline,monotonic-signal
+g066,rename risk,73,70,36,44,295,ship,edge,drag-penalty
+g067,operator cost,66,66,36,75,297,ship,recovery,confidence-floor
+g068,idempotence,66,67,38,95,313,ship,negative,lane-boundary
+g069,dry-run spread,69,70,40,67,294,ship,baseline,monotonic-signal
+g070,rename risk,30,74,22,57,229,ship,edge,drag-penalty
+g071,operator cost,58,43,35,57,212,ship,recovery,confidence-floor
+g072,idempotence,76,30,43,104,263,ship,negative,lane-boundary
+g073,dry-run spread,44,61,28,46,216,ship,baseline,monotonic-signal
+g074,rename risk,32,44,43,65,120,watch,edge,drag-penalty
+g075,operator cost,117,38,31,36,370,ship,recovery,confidence-floor
+g076,idempotence,75,38,26,26,249,ship,negative,lane-boundary
+g077,dry-run spread,102,40,25,25,336,ship,baseline,monotonic-signal
+g078,rename risk,31,9,26,72,105,watch,edge,drag-penalty
+g079,operator cost,87,31,7,28,330,ship,recovery,confidence-floor
+g080,idempotence,30,44,41,83,138,watch,negative,lane-boundary
+g081,dry-run spread,93,53,39,29,297,ship,baseline,monotonic-signal
+g082,rename risk,40,60,21,49,226,ship,edge,drag-penalty
+g083,operator cost,105,38,32,64,359,ship,recovery,confidence-floor
+g084,idempotence,53,23,18,76,227,ship,negative,lane-boundary
+g085,dry-run spread,75,53,12,43,338,ship,baseline,monotonic-signal
+g086,rename risk,45,35,11,74,246,ship,edge,drag-penalty
+g087,operator cost,78,64,33,94,357,ship,recovery,confidence-floor
+g088,idempotence,54,46,24,66,248,ship,negative,lane-boundary
+g089,dry-run spread,45,39,21,56,206,ship,baseline,monotonic-signal
+g090,rename risk,88,38,21,56,333,ship,edge,drag-penalty
+g091,operator cost,69,40,23,103,321,ship,recovery,confidence-floor
+g092,idempotence,107,44,25,45,379,ship,negative,lane-boundary
+g093,dry-run spread,86,48,7,64,397,ship,baseline,monotonic-signal
+g094,rename risk,117,18,20,35,362,ship,edge,drag-penalty
+g095,operator cost,98,75,28,25,385,ship,recovery,confidence-floor
+g096,idempotence,48,71,13,24,271,ship,negative,lane-boundary

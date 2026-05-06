@@ -1,0 +1,28 @@
+{
+  "repo": "copper-ops-bundle-plane",
+  "language": "JavaScript",
+  "category": "Automation",
+  "goal": "Develop a JavaScript command-oriented project for bundle scenarios with layout fixtures, stable geometry snapshots, and bounded memory input sets.",
+  "weights": {
+    "signal": 3,
+    "slack": 2,
+    "confidence": 1,
+    "drag": 3
+  },
+  "thresholds": {
+    "ship": 180,
+    "watch": 98
+  },
+  "properties": [
+    "raising signal cannot reduce score",
+    "raising drag cannot improve score",
+    "lane labels must match configured thresholds",
+    "golden fixture ids must remain unique"
+  ],
+  "fixture_files": [
+    "fixtures/golden/scoreboard.csv",
+    "fixtures/golden/lane-matrix.csv",
+    "fixtures/fuzz/mutations.csv",
+    "fixtures/fuzz/boundary-cases.jsonl"
+  ]
+}
