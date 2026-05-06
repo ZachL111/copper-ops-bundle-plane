@@ -1,0 +1,73 @@
+{
+  "repo": "copper-ops-bundle-plane",
+  "language": "JavaScript",
+  "category": "Automation",
+  "goal": "Develop a JavaScript command-oriented project for bundle scenarios with layout fixtures, stable geometry snapshots, and bounded memory input sets.",
+  "review_model": {
+    "terms": [
+      "dry-run spread",
+      "rename risk",
+      "operator cost",
+      "idempotence"
+    ],
+    "lanes": [
+      "ship",
+      "watch",
+      "hold"
+    ],
+    "score": "signal * 2 + slack + confidence - drag * 3",
+    "purpose": "surface the domain-specific cases that need the most careful review"
+  },
+  "cases": [
+    {
+      "name": "baseline",
+      "focus": "dry-run spread",
+      "signal": 63,
+      "slack": 42,
+      "drag": 11,
+      "confidence": 74,
+      "score": 209,
+      "lane": "ship"
+    },
+    {
+      "name": "stress",
+      "focus": "rename risk",
+      "signal": 71,
+      "slack": 49,
+      "drag": 17,
+      "confidence": 64,
+      "score": 204,
+      "lane": "ship"
+    },
+    {
+      "name": "edge",
+      "focus": "operator cost",
+      "signal": 64,
+      "slack": 43,
+      "drag": 25,
+      "confidence": 62,
+      "score": 158,
+      "lane": "ship"
+    },
+    {
+      "name": "recovery",
+      "focus": "idempotence",
+      "signal": 71,
+      "slack": 54,
+      "drag": 27,
+      "confidence": 49,
+      "score": 164,
+      "lane": "ship"
+    },
+    {
+      "name": "stale",
+      "focus": "dry-run spread",
+      "signal": 80,
+      "slack": 41,
+      "drag": 28,
+      "confidence": 83,
+      "score": 200,
+      "lane": "ship"
+    }
+  ]
+}
